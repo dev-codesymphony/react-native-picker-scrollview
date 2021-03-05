@@ -42,7 +42,7 @@ export default class ScrollPicker extends React.Component {
     this.onScrollBeginDrag = this.onScrollBeginDrag.bind(this);
     this.onScrollEndDrag = this.onScrollEndDrag.bind(this);
     this.state = {
-      selectedIndex: 1,
+      selectedIndex: 0,
     }
   }
 
